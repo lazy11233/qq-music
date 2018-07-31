@@ -1,0 +1,28 @@
+.navbar{
+    .nav-list {
+        display: flex;
+        .nav-item {
+            position: relative;
+            flex: 1;
+            height: $nav-item-height;
+            line-height: $nav-item-height;
+            text-align: center;
+            color: $nav-item-color;
+            
+            &.active{
+                color:$nav-item-active;
+            }
+            &.active::after {
+                content: "";
+                position: absolute;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                display: block;
+                height: 2px;
+                background-color: $nav-item-active;
+            }
+        }
+    }
+}
+/*jsfkajsdlkjfa;sdjfkajsdl;xkjfl;ajsl;f*/

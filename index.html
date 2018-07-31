@@ -16,13 +16,23 @@
         <img src="./images/logo.png" alt="logo" id="logo">
     </header>
 
-    <div class="qq-slider" id="slider">
-        
+    <nav class="navbar">
+        <ul class="nav-list">
+            <li class="nav-item" data-view="rec-view">推荐</li>
+            <li class="nav-item" data-view="rank-view">排行榜</li>
+            <li class="nav-item" data-view="search-view">搜索</li>
+        </ul>
+    </nav>
+    <div>
+        <div class="rec-view">
+            <div class="qq-slider" id="slider"></div>
+        </div>
+        <div class="rank-view hide">排行榜</div>
+        <div class="search-view hide">搜索</div>
     </div>
-
-
     <script src="./script/slider.js"></script>
     <script src="./script/app.js"></script>
+    <script src="./script/tabs.js"></script>
 </body>
 
 </html>

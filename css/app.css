@@ -6,6 +6,10 @@
   padding: 0;
 }
 
+ul, li, ol {
+  list-style: none;
+}
+
 #header {
   display: flex;
   align-items: center;
@@ -38,6 +42,36 @@
 .qq-slider .qq-slider-item > a img {
   width: 100%;
   display: block;
+}
+
+.navbar .nav-list {
+  display: flex;
+}
+.navbar .nav-list .nav-item {
+  position: relative;
+  flex: 1;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.6);
+}
+.navbar .nav-list .nav-item.active {
+  color: #31c27c;
+}
+.navbar .nav-list .nav-item.active::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: block;
+  height: 2px;
+  background-color: #31c27c;
+}
+
+/*jsfkajsdlkjfa;sdjfkajsdl;xkjfl;ajsl;f*/
+.hide {
+  display: none;
 }
 
 body {
