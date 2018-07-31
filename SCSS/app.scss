@@ -1,6 +1,8 @@
 @import "rec";
 @import "var";
-#header {
-    height: $header-height;
-    background: $header-background;
+@import "reset";
+@import "header";
+@import "slider";
+body {
+    background-color: $body-background;
 }

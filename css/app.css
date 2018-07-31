@@ -1,0 +1,47 @@
+@charset "UTF-8";
+/* 重置基础的样式文件 */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+#header {
+  display: flex;
+  align-items: center;
+  height: 44px;
+  background: #31c27c;
+}
+#header h1 {
+  display: none;
+}
+#header #logo {
+  height: 25px;
+  margin-left: 10px;
+}
+
+.qq-slider {
+  width: 100%;
+  overflow: hidden;
+}
+.qq-slider .qq-slider-wrap {
+  width: 100%;
+  display: flex;
+  transition: 0.3s;
+}
+.qq-slider .qq-slider-item {
+  flex-basis: 100%;
+}
+.qq-slider .qq-slider-item > a {
+  display: block;
+}
+.qq-slider .qq-slider-item > a img {
+  width: 100%;
+  display: block;
+}
+
+body {
+  background-color: #f4f4f4;
+}
+
+/*# sourceMappingURL=app.css.map */
