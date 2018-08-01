@@ -1,0 +1,60 @@
+{
+    "code": 0,
+    "data": {
+        "slider": [
+            {
+                "linkUrl": "https://y.qq.com/m/digitalbum/gold/index.html?_video=true&id=4182539&g_f=shoujijiaodian",
+                "picUrl": "http://y.gtimg.cn/music/common/upload/MUSIC_FOCUS/310073.jpg",
+                "id": 16871
+            },
+            {
+                "linkUrl": "http://y.qq.com/w/album.html?albummid=000ClBKe3RRRSH",
+                "picUrl": "http://y.gtimg.cn/music/common/upload/MUSIC_FOCUS/311621.jpg",
+                "id": 16889
+            },
+            {
+                "linkUrl": "http://y.qq.com/w/album.html?albummid=002Cnmdj0Pts9M",
+                "picUrl": "http://y.gtimg.cn/music/common/upload/MUSIC_FOCUS/311796.jpg",
+                "id": 16890
+            },
+            {
+                "linkUrl": "https://y.qq.com/m/act/dm/cxk2018_v2.html",
+                "picUrl": "http://y.gtimg.cn/music/common/upload/MUSIC_FOCUS/311785.jpg",
+                "id": 16874
+            },
+            {
+                "linkUrl": "https://y.qq.com/m/act/sfhd/158.html?ADTAG=jdt",
+                "picUrl": "http://y.gtimg.cn/music/common/upload/MUSIC_FOCUS/310523.jpg",
+                "id": 16884
+            }
+        ],
+        "radioList": [
+            {
+                "picUrl": "http://y.gtimg.cn/music/photo/radio/track_radio_199_13_1.jpg",
+                "Ftitle": "热歌",
+                "radioid": 199
+            },
+            {
+                "picUrl": "http://y.gtimg.cn/music/photo/radio/track_radio_307_13_1.jpg",
+                "Ftitle": "一人一首招牌歌",
+                "radioid": 307
+            }
+        ],
+        "songList": [
+            {
+                "songListDesc": "催泪大杀器！盘点演唱会经典万人大合唱",
+                "picUrl": "http://y.gtimg.cn/music/photo/radio/track_radio_199_13_1.jpg",
+                "id":"2646688496",
+                "accessnum": 4248898,
+                "songListAuthor": "Harry"
+            },
+            {
+                "songListDesc": "催泪大杀器！盘点演唱会经典万人大合唱",
+                "picUrl": "http://y.gtimg.cn/music/photo/radio/track_radio_307_13_1.jpg",
+                "id":"2646688496",
+                "accessnum": 4248898,
+                "songListAuthor": "Harry"
+            }
+        ]
+    }
+}

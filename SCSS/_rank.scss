@@ -1,0 +1,65 @@
+.rank-view {
+    margin: 10px;
+}
+
+.toplist {
+    .top-item {
+        height: 100px;
+        background: #fff;
+        margin-bottom: 10px;
+    }
+    .top-item-media {
+        float: left;
+        img{
+            width: 100px;
+            height: 100px;
+            display: block;
+        }
+    }
+    .top-item-info {
+        position: relative;
+        padding: 7px 10px 6px 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        .top-item-info-title{
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap; 
+            font-size: 16px;
+            color: #000;
+            font-weight: normal;
+            margin-bottom: 5px;
+        }
+        
+        &::after{
+            content: "";
+            position: absolute;
+            top: 50%;
+            right: 10px;
+            margin-top: -4px;
+            width: 6px;
+            height: 6px;
+            transform: rotate(315deg);
+            border-right: 1px solid #b2b2b2;
+            border-bottom: 1px solid #b2b2b2;
+        }
+
+        .top-item-list{
+            .top-item-song{
+                color: rgba(0,0,0,0.5);
+                font-size: 14px;
+                .song-name {
+                    color: #000;
+                    margin-left: 8px;
+                    margin-right: 5px;
+                }
+            }
+        }
+    }
+    .ellipsis {
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+}

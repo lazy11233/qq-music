@@ -1,4 +1,49 @@
 @charset "UTF-8";
+.radios, .playlists {
+  margin: 14px 10px 10px;
+}
+.radios .title, .playlists .title {
+  color: black;
+  font-size: 16px;
+  margin-bottom: 11px;
+}
+.radios .list, .playlists .list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.radios .list .list-item, .playlists .list .list-item {
+  flex: 1;
+  flex-basis: 40%;
+  font-size: 14px;
+  background-color: #fff;
+  margin: 0 10px 10px 0;
+}
+.radios .list .list-item .list-media, .playlists .list .list-item .list-media {
+  position: relative;
+}
+.radios .list .list-item .list-title, .playlists .list .list-item .list-title {
+  padding: 0 7px 5px;
+  margin-top: 5px;
+  height: 36px;
+}
+.radios .list .list-item .icon, .playlists .list .list-item .icon {
+  background-repeat: no-repeat;
+  background-size: 24px 60px;
+  background-image: url("../images/list_sprite.png");
+}
+.radios .list .list-item .icon-play, .playlists .list .list-item .icon-play {
+  height: 24px;
+  bottom: 5px;
+  right: 5px;
+  width: 24px;
+  position: absolute;
+  background-position: 0 0;
+}
+.radios .list .list-item img, .playlists .list .list-item img {
+  width: 100%;
+  display: block;
+}
+
 /* 重置基础的样式文件 */
 * {
   box-sizing: border-box;
@@ -8,6 +53,14 @@
 
 ul, li, ol {
   list-style: none;
+}
+
+h1, h2 {
+  font-weight: normal;
+}
+
+i {
+  font-style: normal;
 }
 
 #header {
@@ -72,6 +125,66 @@ ul, li, ol {
 /*jsfkajsdlkjfa;sdjfkajsdl;xkjfl;ajsl;f*/
 .hide {
   display: none;
+}
+
+.rank-view {
+  margin: 10px;
+}
+
+.toplist .top-item {
+  height: 100px;
+  background: #fff;
+  margin-bottom: 10px;
+}
+.toplist .top-item-media {
+  float: left;
+}
+.toplist .top-item-media img {
+  width: 100px;
+  height: 100px;
+  display: block;
+}
+.toplist .top-item-info {
+  position: relative;
+  padding: 7px 10px 6px 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.toplist .top-item-info .top-item-info-title {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 16px;
+  color: #000;
+  font-weight: normal;
+  margin-bottom: 5px;
+}
+.toplist .top-item-info::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  margin-top: -4px;
+  width: 6px;
+  height: 6px;
+  transform: rotate(315deg);
+  border-right: 1px solid #b2b2b2;
+  border-bottom: 1px solid #b2b2b2;
+}
+.toplist .top-item-info .top-item-list .top-item-song {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 14px;
+}
+.toplist .top-item-info .top-item-list .top-item-song .song-name {
+  color: #000;
+  margin-left: 8px;
+  margin-right: 5px;
+}
+.toplist .ellipsis {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
 
 body {

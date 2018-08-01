@@ -1,0 +1,325 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "topList": [
+            {
+                "id": 4,
+                "listenCount": 19800000,
+                "picUrl": "http://y.gtimg.cn/music/common/upload/iphone_order_channel/toplist_4_300_215100802.jpg",
+                "songList": [
+                    {
+                        "singername": "薛之谦",
+                        "songname": "最好"
+                    },
+                    {
+                        "singername": "艾热",
+                        "songname": "星球坠落 (Live)"
+                    },
+                    {
+                        "singername": "Alan Walker",
+                        "songname": "Darkside"
+                    }
+                ],
+                "topTitle": "巅峰榜·流行指数",
+                "type": 0
+            },
+            {
+                "id": 26,
+                "listenCount": 19500000,
+                "picUrl": "http://y.gtimg.cn/music/common/upload/iphone_order_channel/toplist_26_300_214360296.jpg",
+                "songList": [
+                    {
+                        "singername": "王北车",
+                        "songname": "陷阱"
+                    },
+                    {
+                        "singername": "阿里郎",
+                        "songname": "隔壁泰山"
+                    },
+                    {
+                        "singername": "Olly Murs",
+                        "songname": "That Girl"
+                    }
+                ],
+                "topTitle": "巅峰榜·热歌",
+                "type": 0
+            },
+            {
+                "id": 27,
+                "listenCount": 15200000,
+                "picUrl": "http://y.gtimg.cn/music/common/upload/iphone_order_channel/toplist_27_300_215100802.jpg",
+                "songList": [
+                    {
+                        "singername": "薛之谦",
+                        "songname": "最好"
+                    },
+                    {
+                        "singername": "Alan Walker",
+                        "songname": "Darkside"
+                    },
+                    {
+                        "singername": "火箭少女101",
+                        "songname": "卡路里"
+                    }
+                ],
+                "topTitle": "巅峰榜·新歌",
+                "type": 0
+            },
+            {
+                "id": 54,
+                "listenCount": 10000000,
+                "picUrl": "http://y.gtimg.cn/music/common/upload/iphone_order_channel/toplist_54_300_215172701.jpg",
+                "songList": [
+                    {
+                        "singername": "文兆杰",
+                        "songname": "他他他 (Live)"
+                    },
+                    {
+                        "singername": "曾育茗",
+                        "songname": "彼此 (Live)"
+                    },
+                    {
+                        "singername": "尹清",
+                        "songname": "我还年轻 我还年轻 (Live)"
+                    }
+                ],
+                "topTitle": "勇闯天涯·巅峰榜·明日之子",
+                "type": 0
+            },
+            {
+                "id": 55,
+                "listenCount": 9300000,
+                "picUrl": "http://y.gtimg.cn/music/common/upload/iphone_order_channel/toplist_55_300_215191234.jpg",
+                "songList": [
+                    {
+                        "singername": "艾热",
+                        "songname": "星球坠落 (Live)"
+                    },
+                    {
+                        "singername": "法老",
+                        "songname": "悬崖华尔兹 (Live)"
+                    },
+                    {
+                        "singername": "那吾克热LIL-EM",
+                        "songname": "Three Pass (Live)"
+                    }
+                ],
+                "topTitle": "江小白YOLO·巅峰榜·中国新说唱",
+                "type": 0
+            },
+            {
+                "id": 28,
+                "listenCount": 19900000,
+                "picUrl": "http://y.gtimg.cn/music/common/upload/iphone_order_channel/toplist_28_300_214360296.jpg",
+                "songList": [
+                    {
+                        "singername": "王北车",
+                        "songname": "陷阱"
+                    },
+                    {
+                        "singername": "胡66",
+                        "songname": "浪人琵琶"
+                    },
+                    {
+                        "singername": "张思源",
+                        "songname": "小可爱与小领带"
+                    }
+                ],
+                "topTitle": "巅峰榜·网络歌曲",
+                "type": 0
+            },
+            {
+                "id": 5,
+                "listenCount": 5559520,
+                "picUrl": "http://y.gtimg.cn/music/common/upload/iphone_order_channel/toplist_5_300_214918545.jpg",
+                "songList": [
+                    {
+                        "singername": "王源",
+                        "songname": "The Wrong Things"
+                    },
+                    {
+                        "singername": "王鹤棣",
+                        "songname": "For You"
+                    },
+                    {
+                        "singername": "李荣浩",
+                        "songname": "年少有为"
+                    }
+                ],
+                "topTitle": "巅峰榜·内地",
+                "type": 0
+            },
+            {
+                "id": 6,
+                "listenCount": 6010520,
+                "picUrl": "http://y.gtimg.cn/music/common/upload/iphone_order_channel/toplist_6_300_214250088.jpg",
+                "songList": [
+                    {
+                        "singername": "戴佩妮",
+                        "songname": "你要的爱 (深夜版)"
+                    },
+                    {
+                        "singername": "莫文蔚",
+                        "songname": "扶摇"
+                    },
+                    {
+                        "singername": "徐佳莹",
+                        "songname": "一爱难求"
+                    }
+                ],
+                "topTitle": "巅峰榜·港台",
+                "type": 0
+            },
+            {
+                "id": 3,
+                "listenCount": 9200000,
+                "picUrl": "http://y.gtimg.cn/music/common/upload/iphone_order_channel/toplist_3_300_214735663.jpg",
+                "songList": [
+                    {
+                        "singername": "Imagine Dragons",
+                        "songname": "Natural"
+                    },
+                    {
+                        "singername": "Passenger",
+                        "songname": "Heart To Love"
+                    },
+                    {
+                        "singername": "Jason Mraz",
+                        "songname": "Might As Well Dance"
+                    }
+                ],
+                "topTitle": "巅峰榜·欧美",
+                "type": 0
+            },
+            {
+                "id": 16,
+                "listenCount": 7064060,
+                "picUrl": "http://y.gtimg.cn/music/common/upload/iphone_order_channel/toplist_16_300_214745012.jpg",
+                "songList": [
+                    {
+                        "singername": "MAMAMOO (마마무)",
+                        "songname": "너나 해 (Egotistic)"
+                    },
+                    {
+                        "singername": "효린 (孝琳)",
+                        "songname": "바다보러갈래 (SEE SEA) (去看海)"
+                    },
+                    {
+                        "singername": "Triple H (트리플 H)",
+                        "songname": "RETRO FUTURE"
+                    }
+                ],
+                "topTitle": "巅峰榜·韩国",
+                "type": 0
+            },
+            {
+                "id": 29,
+                "listenCount": 4914100,
+                "picUrl": "http://y.gtimg.cn/music/common/upload/iphone_order_channel/toplist_29_300_214891118.jpg",
+                "songList": [
+                    {
+                        "singername": "莫文蔚",
+                        "songname": "扶摇"
+                    },
+                    {
+                        "singername": "徐佳莹",
+                        "songname": "一爱难求"
+                    },
+                    {
+                        "singername": "张碧晨",
+                        "songname": "血如墨"
+                    }
+                ],
+                "topTitle": "巅峰榜·影视金曲",
+                "type": 0
+            },
+            {
+                "id": 17,
+                "listenCount": 1920000,
+                "picUrl": "http://y.gtimg.cn/music/common/upload/iphone_order_channel/toplist_17_300_214992408.jpg",
+                "songList": [
+                    {
+                        "singername": "GARNiDELiA (ガルニデリア)",
+                        "songname": "アブラカダブラ ～avra K'Davarah～ (阿布拉卡达布拉)"
+                    },
+                    {
+                        "singername": "End of the World (世界の終わり)",
+                        "songname": "Sleeping Beauty (Digital Farm Animals Remix)"
+                    },
+                    {
+                        "singername": "赤西仁 (Jin Akanishi)",
+                        "songname": "Feelin'"
+                    }
+                ],
+                "topTitle": "巅峰榜·日本",
+                "type": 0
+            },
+            {
+                "id": 201,
+                "listenCount": 200376,
+                "picUrl": "http://y.gtimg.cn/music/common/upload/iphone_order_channel/20150127163830.jpg",
+                "songList": [
+                    {
+                        "singername": "火箭少女101",
+                        "songname": "卡路里"
+                    },
+                    {
+                        "singername": "张杰",
+                        "songname": "微笑着胜利"
+                    },
+                    {
+                        "singername": "阿里郎",
+                        "songname": "隔壁泰山"
+                    }
+                ],
+                "topTitle": "巅峰榜·MV",
+                "type": 0
+            },
+            {
+                "id": 52,
+                "listenCount": 1582530,
+                "picUrl": "http://y.gtimg.cn/music/common/upload/iphone_order_channel/toplist_52_300_214298858.jpg",
+                "songList": [
+                    {
+                        "singername": "木秦",
+                        "songname": "soap bubble"
+                    },
+                    {
+                        "singername": "愚青",
+                        "songname": "占有欲和爱的能力"
+                    },
+                    {
+                        "singername": "牛奶咖啡",
+                        "songname": "胜利之光"
+                    }
+                ],
+                "topTitle": "巅峰榜·腾讯音乐人原创榜",
+                "type": 0
+            },
+            {
+                "id": 36,
+                "listenCount": 3496980,
+                "picUrl": "http://y.gtimg.cn/music/common/upload/iphone_order_channel/toplist_36_300_201816159.jpg",
+                "songList": [
+                    {
+                        "singername": "郑阳亭",
+                        "songname": "你那么爱他"
+                    },
+                    {
+                        "singername": "刘霜",
+                        "songname": "曾经最美"
+                    },
+                    {
+                        "singername": "胡赟兆",
+                        "songname": "啷个哩个啷"
+                    }
+                ],
+                "topTitle": "巅峰榜·K歌金曲",
+                "type": 0
+            }
+        ]
+    }
+}
