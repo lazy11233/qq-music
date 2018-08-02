@@ -7,6 +7,8 @@ fetch("./json/rank.json")
     .then(json => json.data.topList)
     .then(renderTopList)
 
+    new Search(document.querySelector(".search-view"));
+
 function render(json) {
     renderSlider(json.data.slider);
     renderRadio(json.data.radioList);

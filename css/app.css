@@ -187,6 +187,53 @@ i {
   text-overflow: ellipsis;
 }
 
+.search-bar {
+  background-color: #f4f4f4;
+  padding: 10px;
+  text-align: center;
+}
+.search-bar .search-bar-cont {
+  position: relative;
+  padding: 8px 12px 8px 35px;
+  height: 40px;
+  border-radius: 3px;
+  background-color: #fff;
+  float: left;
+  width: 80%;
+}
+.search-bar .search-bar-cont input {
+  height: 20px;
+  line-height: 20px;
+  border: none;
+  appearance: none;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.3);
+  outline: 0;
+}
+.search-bar .search-bar-cont .icon {
+  position: absolute;
+  background: url("../images/search.png") center center no-repeat;
+  background-size: cover;
+  height: 18px;
+  width: 18px;
+  left: 11px;
+  top: 11px;
+}
+.search-bar .search-bar-btn {
+  display: inline-block;
+  width: 20%;
+  max-width: 40px;
+  min-width: 30px;
+  font-size: 14px;
+  height: 30px;
+  padding: 10px 2px 0 2px;
+}
+.search-bar::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
 body {
   background-color: #f4f4f4;
 }
