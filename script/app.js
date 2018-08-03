@@ -7,7 +7,8 @@ fetch("./json/rank.json")
     .then(json => json.data.topList)
     .then(renderTopList)
 
-    new Search(document.querySelector(".search-view"));
+new Search(document.querySelector(".search-view"));
+new MusicPlayer(document.querySelector(".music-player"));
 
 function render(json) {
     renderSlider(json.data.slider);
@@ -27,8 +28,8 @@ function renderSlider(slidesData) {
 }
 
 function renderRadio(radios) {
-    document.querySelector(".radios .list").innerHTML =radios.map(radio => 
-    `<div class="list-item">
+    document.querySelector(".radios .list").innerHTML = radios.map(radio =>
+        `<div class="list-item">
         <div class="list-media">
             <img class="lazyload" data-src="${radio.picUrl}" alt="">
             <span class="icon icon-play"></span>
@@ -37,8 +38,8 @@ function renderRadio(radios) {
     </div>`).join("");
 }
 
-function renderPlaylists(playlists){
-    document.querySelector(".playlists .list").innerHTML =playlists.map(list => 
+function renderPlaylists(playlists) {
+    document.querySelector(".playlists .list").innerHTML = playlists.map(list =>
         `<div class="list-item">
             <div class="list-media">
                 <img class="lazyload" data-src="${list.picUrl}" alt="">
@@ -48,10 +49,10 @@ function renderPlaylists(playlists){
         </div>`).join("");
 }
 
-function renderTopList(list){
+function renderTopList(list) {
     document.querySelector(".rank-view .toplist").innerHTML =
-    list.map(item => 
-        `<li class="top-item">
+        list.map(item =>
+            `<li class="top-item">
             <div class="top-item-media">
                 <a href="#"><img class="lazyload" data-src="${item.picUrl}" alt=""></a>
             </div>
@@ -62,14 +63,14 @@ function renderTopList(list){
                 </ul>
             </div>
         </li>`
-    ).join("");
+        ).join("");
     lazyload(document.querySelectorAll(".rank-view .toplist img"));
 }
 
 function sonList(songs) {
-    return songs.map((song,i) => 
-    `<li class="top-item-song ellipsis">
-        <i class="song-index">${i+1}</i>
+    return songs.map((song, i) =>
+        `<li class="top-item-song ellipsis">
+        <i class="song-index">${i + 1}</i>
         <span class="song-name">${song.songname}</span> -${song.singername}
     </li>`
     ).join("");

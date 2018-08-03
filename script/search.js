@@ -24,6 +24,7 @@ class Search {
         }
         this.search(this.keyword);
     }
+    
     search(keyword, page) {
         if(this.fetching){
             return;
